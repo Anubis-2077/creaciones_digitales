@@ -1,0 +1,44 @@
+.infoSectionContainer{
+    width: 100%;
+    height: 100%;
+}
+
+.infoContainer{
+    padding-top: 5% ;
+}
+
+.infoContentContainer{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center;
+    text-align: center;
+}
+
+.infoCardContainer{
+    
+    width: 90% !important;
+    margin: auto !important;
+    padding-top: 7%;
+    
+}
+
+.infoCard{
+    border-radius: 0 25px 0 25px !important;
+    min-height: 160px;
+    margin: 0 15px;
+    background-color: #21ecff33 !important;
+    color: rgb(255, 255, 255) !important;
+    border: solid 2px #21ebff;
+    box-shadow: 0 0 5px #21ebff !important;
+    transition: all ease-in-out .5s;
+}
+
+.infoCard:hover{
+    box-shadow: 0 0 20px #21ebff !important;
+}
+
+
+.infoCardTitle{
+    color: #FFFFFF;
+}

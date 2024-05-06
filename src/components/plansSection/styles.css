@@ -1,0 +1,35 @@
+
+.planCardContainer{
+    border-radius: 0 25px 0 25px;
+    min-height: 160px;
+    margin: 0 15px;
+    background-color: #00000061 !important;
+    color: rgb(255, 255, 255) !important;
+    border: solid 2px #21ebff;
+    box-shadow: 0 0 5px #21ebff !important;
+    transition: all ease-in-out .5s;
+}
+
+.planCardContainer:hover{
+    background-color: #08242733 !important;
+    box-shadow: 0 0 40px #21ebff !important;
+    border: solid 2px #ffffff;
+}
+
+.planTitle{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.planPrice{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800 ;
+}
+
+.planButtonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+

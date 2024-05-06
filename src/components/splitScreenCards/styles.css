@@ -1,0 +1,21 @@
+.splitGridCard{
+    display: flex ;
+    justify-content: center ;
+}
+
+.splitCard{
+    border-radius: 0 25px 0 25px !important;
+    background-color: #00000000 !important;
+    color: rgb(255, 255, 255) !important;
+    border: solid 2px #21ecff00 !important;
+    margin-bottom: 10px;
+    
+    transition: all ease-in-out .6s !important;
+}
+
+.splitCard:hover{
+    background-color: #08242733 !important;
+    box-shadow: 0 10px 50px #21ebff !important;
+    border: solid 2px #ffffff !important;
+}
+

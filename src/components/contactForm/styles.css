@@ -1,0 +1,87 @@
+#contactContainer{
+    
+    margin-bottom: 4%;
+    margin-top: 4%;
+    border-radius: 0 25px 0 25px !important;
+    background-color: #fdfdfd52 !important;
+    backdrop-filter: blur(5px);
+    color: rgb(255, 255, 255) !important;
+    border: solid 2px #21ebff !important;
+    box-shadow: 0 0 5px #21ebff !important;
+    transition: all ease-in-out .5s !important;
+    
+    justify-content: center;
+    
+}
+
+
+.css-953pxc-MuiInputBase-root-MuiInput-root::before{
+    border-bottom: 3px solid #FFFFFF !important;
+    color: #FFFFFF !important;
+
+}
+
+
+
+
+.css-953pxc-MuiInputBase-root-MuiInput-root::after{
+    border-bottom: 3px solid #1976d2 !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 0 20px #1976d2;
+    
+    
+}
+
+.css-10lvcmn-MuiInputBase-root-MuiInput-root::after{
+    color: #FFFFFF;
+    border-bottom: 3px solid #1976d2 !important;
+    box-shadow: 0 0 20px #1976d2;
+
+}
+
+.css-10lvcmn-MuiInputBase-root-MuiInput-root::before{
+    color: #FFFFFF;
+    border-bottom: 3px solid #FFFFFF !important;
+    
+
+}
+
+.contactButtonContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.contactImage{
+    max-width: 500px;
+    border-radius:  0 25px 0 25px;
+    
+}
+
+.contactImageContainer{
+    display: flex !important;
+    justify-content: center;
+    max-height: fit-content;
+    padding: 15px !important;
+}
+
+
+.neon-icon {
+    color: #fff;
+    font-size: 50px; /* Ajusta el tamaño de tu ícono aquí */
+    filter: drop-shadow(0 0 5px #fff) /* Resplandor blanco base */
+            drop-shadow(0 0 10px #ff73fa) /* Resplandor rosa */
+            drop-shadow(0 0 15px #ff00f6) /* Resplandor rosa más intenso */
+           
+  }
+
+#NeonIconVPN{
+    font-size: 80px;
+}
+
+#fullName {
+    &::placeholder { /* Estiliza los placeholders de todos los input dentro de elementos con esta clase */
+      color: red; /* Cambia 'red' por el color deseado */
+      opacity: 1; /* Importante para asegurar que el color sea consistente y no semi-transparente */
+    }
+  }

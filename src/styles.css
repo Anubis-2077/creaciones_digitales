@@ -1,0 +1,39 @@
+body{
+    overflow-x: hidden !important;
+    background-image: url(/images/4.png);
+    background-position: center 98vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+    width: 100vw;
+    height: 100vh;
+}
+
+.fp-watermark{
+    display: none !important;
+}
+
+.section4{
+    padding: 2%;
+    
+    
+}
+
+
+
+.section4 h3{
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 30px;
+}
+
+
+

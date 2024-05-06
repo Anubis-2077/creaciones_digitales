@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&family=Sedan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&family=Sedan&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.heroSectionContainer {
+    margin-top: -5%;
+    overflow-x: hidden !important;
+}
+
+.cardHeroSectionContainer {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: flex-start;
+    padding-left: 60px;
+    align-self: center;
+    height: 110vh !important;
+    width: 100vw;
+}
+
+.css-1nz9mb {
+    flex-direction: row !important;
+
+}
+
+.section1 {
+    background-color: #000000;
+}
+
+.heroTitle {
+    font-family: "Quicksand", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 280px !important;
+}
+
+.heroSubtitle {
+    font-family: "Quicksand", sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 30px !important;
+    margin-left: 1% !important;
+}
+
+.heroTitle::after {
+    content: "";
+    position: absolute;
+    height: 50%;
+    width: 80px;
+    background-color: rgb(0, 0, 0);
+    left: 47.8%;
+    top: 25%;
+    transform: rotate(30deg);
+}
+
+.heroNeonText:hover {
+
+    text-shadow:
+        0 0 5px #ff0000,
+        0 0 10px #ff0000,
+        0 0 20px #ff0000,
+        0 0 40px #ff0000;
+
+}
+
+.heroNeonText {
+    background-color: #fb1216;
+    background-image: linear-gradient(270deg, #fb1216 0%, #0013d8 100%);
+
+
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    font-size: 32px !important;
+    color: transparent;
+    display: inline;
+    transition: all ease-in-out .7s;
+}
+
+.navbarLogo{
+    max-width: 350px;
+    margin-top: 10px;
+}
