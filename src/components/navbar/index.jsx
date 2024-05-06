@@ -1,8 +1,12 @@
 import NeonButton from '../neonbutton';
 import './styles.css'
 import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
+    const phoneNumber = '+5492644390627';
+  const message = encodeURIComponent("Hola, necesito más información sobre: "); 
+
     return (
         <div>
             <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }} className='NavbarContainer'>
@@ -22,8 +26,10 @@ function Navbar() {
                         <img src="/images/Logo.png" alt="" className='navbarLogo' />
                     </Typography>
                     
-                    {/* Botón a la derecha */}
-                    <NeonButton nombreBoton='Contacto' />
+                    
+                    <Link to={`https://wa.me/${phoneNumber}?text=${message}`}  target='_blank'>
+              <NeonButton nombreBoton='Contacto'  />
+            </Link>
                 </Toolbar>
             </AppBar>
             <Toolbar /> {/* Este Toolbar es necesario para agregar un espacio debajo del AppBar fijo */}

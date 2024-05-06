@@ -85,3 +85,47 @@
       opacity: 1; /* Importante para asegurar que el color sea consistente y no semi-transparente */
     }
   }
+
+.swal2-confirm{
+    background-color: #00000000 !important;
+    color: #FFFFFF;
+    border: 3px solid #ffffff !important;
+    box-shadow: 0 0 30px #1976d2;
+    transition: all ease-in-out .5s;
+}
+
+.swal2-confirm:hover{
+    border: 3px solid #1976d2 !important;
+    box-shadow: 0 0 30px 10px #1976d2;
+}
+
+.swal2-modal{
+    background-color: #000000;
+    border: solid 2px #FFFFFF;
+    box-shadow: 0 0 40px 10px #1976d2;
+    color: #FFFFFF;
+}
+
+.swal2-x-mark-line-left{
+    background-color: #FFFFFF !important;
+    box-shadow: 0 0 30px #d21919;
+    
+}
+
+.swal2-x-mark-line-right{
+    background-color: #FFFFFF !important;
+    box-shadow: 0 0 30px #d21919;
+    
+}
+
+.swal2-error{
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 30px #d21919;
+}
+
+
+.swal2-success-line-tip{
+    background-color: #FFFFFF !important;
+    box-shadow: 0 0 30px #1ea600;
+}

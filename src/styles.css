@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'digital';
+    src: url(/src/fonts/01\ Digitall.ttf);
+}
+
 body{
     overflow-x: hidden !important;
     background-image: url(/images/4.png);
@@ -35,5 +40,9 @@ body{
     font-size: 30px;
 }
 
-
+.digital{
+    font-family: 'digital', sans-serif !important;
+    font-size: 50px !important;
+    color: #FFFFFF !important;
+}
 

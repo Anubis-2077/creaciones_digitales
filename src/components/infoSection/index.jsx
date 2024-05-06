@@ -8,7 +8,7 @@ import { Container } from "@mui/material";
 const InfoSection = () => {
   return (
     <>
-      <Container style={{ padding: "50px 0", color: "white" }}>
+      <Container style={{ padding: "50px 0", color: "white" }} >
         <InfoNumbers/>
         <InfoCards/>
       </Container>

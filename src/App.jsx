@@ -6,6 +6,7 @@ import InfoSection from "./components/infoSection";
 import PlansGrid from "./components/plansSection";
 import SplitScreenCards from "./components/splitScreenCards";
 import ContactForm from "./components/contactForm";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -22,12 +23,13 @@ function App() {
         <PlansGrid />
       </div>
       <div className="section4">
-        <h3>También puedes consultar por estos servicios </h3>
+        <h3 className="digital">TAMBIEN PUEDES CONSULTAR POR ESTOS SERVICIOS</h3>
         <SplitScreenCards />
       </div>
       <div className="section5">
         <ContactForm/>
       </div>
+      <Footer/>
     </div>
   );
 }

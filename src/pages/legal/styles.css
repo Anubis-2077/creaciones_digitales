@@ -1,0 +1,23 @@
+
+.terminosContainer{
+    height: 100% !important;
+    width: 100vw !important;
+    background-image: url(/public/images/2.jpg);
+    flex-direction: column;
+    background-repeat: repeat !important;
+    background-size: contain;
+    display: flex !important;
+    justify-content: center;
+    align-items: center !important;
+}
+
+.terminosBoxContainer{
+    background-color: #ffffffc8;
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 0 25px 0 25px;
+    width: 90%;
+    color: black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

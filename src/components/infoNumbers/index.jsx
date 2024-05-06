@@ -10,11 +10,11 @@ const InfoNumbers = ()=>{
               <Typography variant="h3" gutterBottom>
                 <AnimatedNumber end={200} />
               </Typography>
-              <Typography variant="h5" gutterBottom>
-                Diseños
+              <Typography variant="h5" gutterBottom className='infoNumberTitle'>
+                DISEÑOS
               </Typography>
-              <Typography>
-                Las páginas diseñadas con los más altos estándares.
+              <Typography className="infoNumberDescription">
+                Más de 200 diseños listos para adaptarlos a tu marca.
               </Typography>
             </div>
           </Grid>
@@ -23,10 +23,10 @@ const InfoNumbers = ()=>{
               <Typography variant="h3" gutterBottom>
                 <AnimatedNumber end={24} />
               </Typography>
-              <Typography variant="h5" gutterBottom>
-                Tiendas
+              <Typography variant="h5" gutterBottom className='infoNumberTitle'>
+                TIENDAS EN LINEA
               </Typography>
-              <Typography>
+              <Typography className="infoNumberDescription">
                 Tiendas en linea automatizadas y eficientes.
               </Typography>
             </div>
@@ -36,11 +36,11 @@ const InfoNumbers = ()=>{
               <Typography variant="h3" gutterBottom>
                 <AnimatedNumber end={13} />
               </Typography>
-              <Typography variant="h5" gutterBottom>
-                Software para empresas
+              <Typography variant="h5" gutterBottom className='infoNumberTitle'>
+                WEB APPS
               </Typography>
-              <Typography>
-                Potenciados mediante inteligencia artifical.
+              <Typography className="infoNumberDescription">
+                Potenciadas mediante inteligencia artificial.
               </Typography>
             </div>
           </Grid>

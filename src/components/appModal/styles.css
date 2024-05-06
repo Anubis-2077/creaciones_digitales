@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'digital';
+    src: url(/src/fonts/01\ Digitall.ttf);
+}
+
+
+.appModalTitle{
+    text-align: center !important;
+    font-size: 30px;
+}
+
+.appModalBody{
+    text-align: center;
+    font-size: 20px;
+}
+
+.preguntasFrecuentes{
+    overflow-y:visible
+}

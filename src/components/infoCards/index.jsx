@@ -13,7 +13,7 @@ const InfoCards = ()=>{
                     className='infoCardTitle'
                     gutterBottom
                   >
-                    Diseño
+                    DISEÑO
                   </Typography>
                   <Typography variant="h5" component="div"></Typography>
                   
@@ -35,7 +35,7 @@ const InfoCards = ()=>{
                     className='infoCardTitle'
                     gutterBottom
                   >
-                    Desarrollo
+                    DESARROLLO
                   </Typography>
                   <Typography variant="h5" component="div"></Typography>
                   
@@ -57,7 +57,7 @@ const InfoCards = ()=>{
                     className='infoCardTitle'
                     gutterBottom
                   >
-                    Producción
+                    PRODUCCIÓN
                   </Typography>
                   <Typography variant="h5" component="div"></Typography>
                   
